@@ -68,8 +68,8 @@ user	用户ID，外键关联到用户表
 
 6.	users用户模块
 （1.登录、注册、查看、修改
-```登陆时，根据token获取用户信息，根据HTTP_AUTHORIZATION拿到token，然后利用queryset.filter 过滤器拿到相应id的用户信息。```
+```登陆时，根据token获取用户信息，根据HTTP_AUTHORIZATION拿到token，然后利用queryset.filter 过滤器拿到相应id的用户信息。```<br />
 （2.用户的详情、编辑、删除
-```利用UserRetrieveUpdateDeleteView(RetrieveAPIView, DestroyAPIView, UpdateAPIView):，重写相关的POST、GET方法。```
+```利用UserRetrieveUpdateDeleteView(RetrieveAPIView, DestroyAPIView, UpdateAPIView):，重写相关的POST、GET方法。```<br />
 （3.用户注册
-```RegisterView(mixins.CreateModelMixin, GenericAPIView)类新增用户```
+```RegisterView(mixins.CreateModelMixin, GenericAPIView)类新增用户```<br />
