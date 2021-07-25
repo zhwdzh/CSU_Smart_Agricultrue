@@ -1,0 +1,2 @@
+# CSU_Smart_Agricultrue
+中南大学物联网生产实习的项目，题目是智慧农业大棚
